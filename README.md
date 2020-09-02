@@ -5,6 +5,15 @@
 ## idea
 higher concentrations of CO2 inside will make you sleepy and have an impact on your wellbeing. during the current pandemic higher CO2 concentrations inside are also a pretty good indication for higher levels of aerosol and as such a higher risk for infection. the 'CO2 Ampel' (CO2 traffic light) will give you a visual representation of the current situation and remind you to open windows to keep you happy and healthy
 
+## parts list
+
+| description          | part        |
+| -------------------- | ----------- |
+| Infrared CO2 Sensor  | mhz-19      |
+| Active piezzo buzzer | KY-012      |
+| OLED Display         | SSD1306     |
+| LED-Ring             | WS2812      |
+
 ## build
 
 just solder everything according to the connection schema.
