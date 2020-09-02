@@ -41,6 +41,12 @@ output:
 
 sensor:
   - platform: mhz19
+    update_interval: 30s
+    automatic_baseline_calibration: false 
+    uart_id: uart_mhz19
+    temperature:
+      name: "MH-Z19 Temperature"
+      id: mhz19_temp
     co2:
       name: "MH-Z19 CO2"
       id: mhz19_co2
@@ -96,13 +102,6 @@ sensor:
                                             static int num_executions = 0;
                                             ESP_LOGD("main", "I am at execution number %d", num_executions);
                                             num_executions += 1;
-    temperature:
-      name: "MH-Z19 Temperature"
-      id: mhz19_temp
-    update_interval: 30s
-    automatic_baseline_calibration: false 
-    uart_id: uart_mhz19
-
 i2c:
   sda: GPIO21 
   scl: GPIO22
