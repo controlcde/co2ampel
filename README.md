@@ -7,12 +7,12 @@ higher concentrations of CO2 inside will make you sleepy and have an impact on y
 
 ## parts list
 
-| description          | part        |
+| description          | part        | link |
 | -------------------- | ----------- |
-| Infrared CO2 Sensor  | mhz-19      |
-| Active piezzo buzzer | KY-012      |
+| Infrared CO2 Sensor  | mhz-19      | https://de.aliexpress.com/i/32952229446.html |
+| Active piezzo buzzer | KY-012      | https://de.aliexpress.com/item/32740686896.html?spm=a2g0o.productlist.0.0.554c8f02ZzXw5y&algo_pvid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba&algo_expid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba-0&btsid=0ab6f83115990618356642096e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_ |
 | OLED Display         | SSD1306     |
-| LED-Ring             | WS2812      |
+| LED-Ring             | WS2812      | https://de.aliexpress.com/item/32835427711.html?spm=a2g0o.productlist.0.0.847c3d32JLroFX&algo_pvid=32c7c01b-df4b-430e-b550-00097f15afde&algo_expid=32c7c01b-df4b-430e-b550-00097f15afde-0&btsid=0ab6f83115990618906573133e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_ |
 
 ## build
 
