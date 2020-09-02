@@ -1,0 +1,131 @@
+esphome:
+    name: co2_sensor 
+    platform: ESP32
+    board: esp32doit-devkit-v1 
+    on_boot:
+            - display.page.show: boot
+
+logger:
+    level: DEBUG
+wifi:
+    ssid: !secret wifi_ssid
+    password: !secret wifi_passwd
+
+mqtt:
+  broker: mqtt.unhb
+  birth_message:
+    topic: co2_sensor/status
+    payload: online
+  will_message:
+   topic: co2_sensor/status
+   payload: offline
+
+uart:
+  rx_pin: GPIO17 
+  tx_pin: GPIO16
+  baud_rate: 9600
+  id: uart_mhz19
+
+light:
+  - platform: neopixelbus
+    pin: GPIO4
+    num_leds: 12
+    name: "ws2812 ring"
+    id: "ws2812"
+    restore_mode: ALWAYS_OFF
+
+output:
+  - platform: ledc
+    pin: GPIO12
+    id: buzzer
+
+sensor:
+  - platform: mhz19
+    co2:
+      name: "MH-Z19 CO2"
+      id: mhz19_co2
+      on_value:
+       then:
+          if:
+           condition:
+                 sensor.in_range:
+                  id: mhz19_co2 
+                  above: 0
+                  below: 800
+           then:
+            - light.turn_off:
+               id: ws2812
+            - display.page.show: co2
+           else:
+                if:
+                 condition:
+                  sensor.in_range:
+                   id: mhz19_co2
+                   above: 800
+                   below: 1500
+                 then:
+                     - light.turn_on:
+                        id: ws2812
+                        brightness: 80%
+                        red: 50%
+                        green: 50%
+                        blue: 0%
+                 else:
+                         if:
+                                 condition:
+                                         sensor.in_range:
+                                                 id: mhz19_co2
+                                                 above: 1500
+                                 then:
+                                         - light.turn_on:
+                                                 id: ws2812
+                                                 brightness: 100%
+                                                 red: 100%
+                                                 green: 0%
+                                                 blue: 0%
+                                         - output.turn_on: buzzer
+                                         - output.ledc.set_frequency:
+                                            id: buzzer
+                                            frequency: "5000Hz"
+                                         - output.set_level:
+                                            id: buzzer
+                                            level: "80%"
+                                         - delay: 500ms
+                                         - output.turn_off: buzzer
+                                         - lambda: |-
+                                            static int num_executions = 0;
+                                            ESP_LOGD("main", "I am at execution number %d", num_executions);
+                                            num_executions += 1;
+
+
+
+    temperature:
+      name: "MH-Z19 Temperature"
+      id: mhz19_temp
+    update_interval: 30s
+    automatic_baseline_calibration: false 
+    uart_id: uart_mhz19
+
+i2c:
+  sda: GPIO21 
+  scl: GPIO22
+
+font:
+  - file: "font.ttf"
+    id: cust_font
+    size: 28  
+
+display:
+  - platform: ssd1306_i2c
+    model: "SSD1306 128x64"
+    address: 0x3C
+    brightness: 100%
+    update_interval: 30s
+    pages:
+            - id: boot
+              lambda: |-
+               it.printf(64, 32, id(cust_font), COLOR_ON, TextAlign::TOP_CENTER, "starte...");
+            - id: co2
+              lambda: |-
+               it.printf(64, 32, id(cust_font), COLOR_ON, TextAlign::TOP_CENTER, "%.0fPPM", id(mhz19_co2).state);
+#            it.printf(64, 40, id(cust_font),TextAlign::TOP_CENTER, "%.0f°C", id(mhz19_temp).state);
