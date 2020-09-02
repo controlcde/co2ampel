@@ -96,9 +96,6 @@ sensor:
                                             static int num_executions = 0;
                                             ESP_LOGD("main", "I am at execution number %d", num_executions);
                                             num_executions += 1;
-
-
-
     temperature:
       name: "MH-Z19 Temperature"
       id: mhz19_temp
