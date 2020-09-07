@@ -19,6 +19,7 @@ higher concentrations of CO2 inside will make you sleepy and have an impact on y
 ## build
 
 just solder everything according to the connection schema.
+get yourself a copy of esphome (https://esphome.io/) and compile the firmware with 'esphome co2sensor.yaml run' - hold boot on your esp until fw upload start.
 
 ### schema
 
