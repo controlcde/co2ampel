@@ -13,7 +13,7 @@
    height="200.782mm"
    width="110.41832mm"
    sodipodi:docname="box2.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -23,17 +23,18 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1368"
-     inkscape:window-height="836"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
      id="namedview8468"
-     showgrid="false"
-     inkscape:zoom="1.7592384"
-     inkscape:cx="165.64702"
-     inkscape:cy="143.06294"
-     inkscape:window-x="72"
-     inkscape:window-y="27"
+     showgrid="true"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="339.54544"
+     inkscape:cy="678.61699"
+     inkscape:window-x="1920"
+     inkscape:window-y="1080"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg7227" />
+     inkscape:current-layer="svg7227"
+     showguides="true" />
   <defs
      id="defs7221" />
   <metadata
@@ -473,4 +474,18 @@
            style="font-size:35px;line-height:1.25;stroke:#0000ff;stroke-opacity:1"
            id="flowPara5605-8"> </flowPara></flowRoot>    </g>
   </g>
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.24268977;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect827"
+     width="8.7573109"
+     height="8.7573109"
+     x="9.6916475"
+     y="180.73056" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.24268977;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect827-3"
+     width="8.7573109"
+     height="8.7573109"
+     x="98.345825"
+     y="69.469421" />
 </svg>
