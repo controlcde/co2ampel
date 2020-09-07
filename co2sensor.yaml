@@ -1,5 +1,5 @@
 esphome:
-    name: co2_sensor 
+    name: co2_sensor_lab 
     platform: ESP32
     board: esp32doit-devkit-v1 
     on_boot:
@@ -21,8 +21,8 @@ mqtt:
    payload: offline
 
 uart:
-  rx_pin: GPIO17 
-  tx_pin: GPIO16
+  rx_pin: GPIO16 
+  tx_pin: GPIO17
   baud_rate: 9600
   id: uart_mhz19
 
@@ -41,8 +41,8 @@ output:
 
 sensor:
   - platform: mhz19
-    update_interval: 30s
-    automatic_baseline_calibration: false 
+    update_interval: 10s
+    automatic_baseline_calibration: true 
     uart_id: uart_mhz19
     temperature:
       name: "MH-Z19 Temperature"
@@ -116,7 +116,7 @@ display:
     model: "SSD1306 128x64"
     address: 0x3C
     brightness: 100%
-    update_interval: 30s
+    update_interval: 10s
     pages:
             - id: boot
               lambda: |-
