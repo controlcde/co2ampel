@@ -1,6 +1,6 @@
 # co2ampel
 
-![](https://git.unhb.de/smash/co2ampel/raw/branch/master/IMG_20200831_221038.jpg)
+![](https://git.unhb.de/smash/co2ampel/raw/branch/master/doc/case.jpg)
 
 ## idea
 higher concentrations of CO2 inside will make you sleepy and have an impact on your wellbeing. during the current pandemic higher CO2 concentrations inside are also a pretty good indication for higher levels of aerosol and as such a higher risk for infection. the 'CO2 Ampel' (CO2 traffic light) will give you a visual representation of the current situation and remind you to open windows to keep you happy and healthy
@@ -42,7 +42,7 @@ get yourself a copy of esphome (https://esphome.io/) and compile the firmware wi
 ### ws2812
 if your ws2812 don't work on 3.3V power (most will do) you can try to use 5V instead. there are plenty different ws2812 builds so ymmv... if the leds don't work with 5V try to add a pullup resistor to your data line and a diode towards D4 to raise your high level while protecting your GPIO (https://forum.arduino.cc/index.php?topic=578735.msg3941756#msg3941756)
 looks like this:
-![](https://git.unhb.de/smash/co2ampel/raw/branch/master/levelshifter.png)
+![](https://git.unhb.de/smash/co2ampel/raw/branch/master/doc/levelshifter.png)
 
 either way it might be a good idea to have a capacitor between VCC and GND. my prototype worked without any of these, but from time to time some LEDs just randomly turn on...
 
