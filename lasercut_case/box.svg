@@ -28,13 +28,15 @@
      inkscape:window-height="1052"
      id="namedview20"
      showgrid="false"
-     inkscape:zoom="1.8443764"
-     inkscape:cx="-24.191011"
-     inkscape:cy="524.15843"
-     inkscape:window-x="1920"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-29.102235"
+     inkscape:cy="189.62093"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg983" />
+     inkscape:current-layer="svg983"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
   <metadata
      id="metadata989">
     <rdf:RDF>
@@ -116,9 +118,15 @@
      x="8.0234766"
      y="88.986549" />
   <circle
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.50877088;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.02645833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path838"
-     cx="32.648277"
-     cy="183.2399"
+     cx="55.149998"
+     cy="172.07759"
      r="2.2456145" />
+  <circle
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.06284641;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path1714"
+     cx="55.149998"
+     cy="183.2399"
+     r="14.968576" />
 </svg>
