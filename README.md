@@ -19,7 +19,18 @@ higher concentrations of CO2 inside will make you sleepy and have an impact on y
 ## build
 
 just solder everything according to the connection schema.
-get yourself a copy of esphome (https://esphome.io/) and compile the firmware with 'esphome co2sensor.yaml run' - hold boot on your esp until fw upload start.
+get yourself a copy of esphome (https://esphome.io/) and compile the firmware with 'co2ampel=USER_ROOMesphome co2sensor.yaml run' (replace user with a nick that identifies you or your organisation and room with the place the sensor is located at - these will be used for online graphing!)
+hold boot on your esp32 until fw upload starts.
+
+## setup
+place the sensor in your room, keep it away from direct exposure of breath (give it at least 1-2m distance to humans or other co2 sources to get the average co2 level of the room)
+when there is a freifunk wifi around there is nothing to do for you, same when you defined your own wifi via secrets.yaml.
+else just wait a bit and the sensor will spawn an wifi without a password. connect with your phone and choose to login or open http://192.168.4.1 in a browser to enter your wifi credentials
+when everything is done, the default config will send the sensor readings back to the project where you can view online graphs (see grafana)
+
+## grafana
+
+there is a quick setup on http://co2.cyber23.de:3000/d/1axlpIdGk/co2?orgId=1&refresh=10s your sensor should apper in the list as soon it has wifi
 
 ### schema
 
