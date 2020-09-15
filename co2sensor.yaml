@@ -1,23 +1,33 @@
+substitutions:
+  node_name: !env_var co2ampel 
 esphome:
-    name: co2_sensor_lab 
+    name: co2ampel_${node_name}
     platform: ESP32
     board: esp32doit-devkit-v1 
     on_boot:
-            - display.page.show: boot
+               - display.page.show: boot
+ota:
+  safe_mode: True
+  password: !secret ota_passwd 
+
 
 logger:
     level: DEBUG
 wifi:
     ssid: !secret wifi_ssid
     password: !secret wifi_passwd
-
+    ap:
+     ssid: "co2ampel"
+     password: ""
+captive_portal:
 mqtt:
-  broker: mqtt.unhb
+  broker: co2.cyber23.de
+  topic_prefix: co2ampel/${node_name}
   birth_message:
-    topic: co2_sensor/status
+    topic: co2ampel/${node_name}/status
     payload: online
   will_message:
-   topic: co2_sensor/status
+   topic: co2ampel/${node_name}/status
    payload: offline
 
 uart:
@@ -45,10 +55,10 @@ sensor:
     automatic_baseline_calibration: true 
     uart_id: uart_mhz19
     temperature:
-      name: "MH-Z19 Temperature"
+      name: ${node_name} Temperature
       id: mhz19_temp
     co2:
-      name: "MH-Z19 CO2"
+      name: ${node_name} PPM
       id: mhz19_co2
       on_value:
        then:
@@ -76,6 +86,7 @@ sensor:
                         red: 50%
                         green: 50%
                         blue: 0%
+                     - display.page.show: co2
                  else:
                          if:
                                  condition:
@@ -89,19 +100,24 @@ sensor:
                                                  red: 100%
                                                  green: 0%
                                                  blue: 0%
-                                         - output.turn_on: buzzer
-                                         - output.ledc.set_frequency:
-                                            id: buzzer
-                                            frequency: "5000Hz"
-                                         - output.set_level:
-                                            id: buzzer
-                                            level: "80%"
+                                       # - output.turn_on: buzzer
+                                       # - output.ledc.set_frequency:
+                                       #    id: buzzer
+                                       #    frequency: "5000Hz"
+                                       # - output.set_level:
+                                       #    id: buzzer
+                                       #    level: "20%"
+                                       # - delay: 10ms
+                                       # - output.turn_off: buzzer
                                          - delay: 500ms
-                                         - output.turn_off: buzzer
+                                         - light.toggle: ws2812
+                                         - delay: 500ms
+                                         - light.toggle: ws2812
                                          - lambda: |-
                                             static int num_executions = 0;
                                             ESP_LOGD("main", "I am at execution number %d", num_executions);
                                             num_executions += 1;
+                                         - display.page.show: co2   
 i2c:
   sda: GPIO21 
   scl: GPIO22
