@@ -20,7 +20,7 @@ higher concentrations of CO2 inside will make you sleepy and have an impact on y
 
 * solder everything according to the connection schema
 * get yourself a copy of esphome (https://esphome.io/)
-* compile the firmware with ```co2ampel=USER_ROOMesphome co2sensor.yaml run``` (replace user with a nick that identifies you or your organisation and room with the place the sensor is located at - these will be used for online graphing!)
+* compile the firmware with ```co2ampel=USER_ROOM esphome co2sensor.yaml run``` (replace user with a nick that identifies you or your organisation and room with the place the sensor is located at - these will be used for online graphing!)
 * hold boot on your esp32 until fw upload starts.
 
 ## setup
