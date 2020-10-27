@@ -10,11 +10,11 @@ higher concentrations of CO2 inside will make you sleepy and have an impact on y
 
 | description | part | link |
 | -------------------- | ----------- | ------------------------------------------- |
-| ESP32 | ESP32 | [Aliexpress Link ](https://de.aliexpress.com/item/32864722159.html?spm=a2g0o.productlist.0.0.6e7e745aBnlwmM&algo_pvid=b9be1fdc-113a-4e2e-aafa-4e08151af66c&algo_expid=b9be1fdc-113a-4e2e-aafa-4e08151af66c-1&btsid=0ab50f6215990625361401073eaad4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)|
+| ESP32 | ESP-32 30Pin | [Aliexpress Link ](https://de.aliexpress.com/item/32864722159.html?spm=a2g0o.productlist.0.0.6e7e745aBnlwmM&algo_pvid=b9be1fdc-113a-4e2e-aafa-4e08151af66c&algo_expid=b9be1fdc-113a-4e2e-aafa-4e08151af66c-1&btsid=0ab50f6215990625361401073eaad4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)|
 | Infrared CO2 Sensor | mhz-19 | [Aliexpress Link ](https://de.aliexpress.com/i/32952229446.html) |
 | Active piezzo buzzer | KY-012 | [Aliexpress Link ](https://de.aliexpress.com/item/32740686896.html?spm=a2g0o.productlist.0.0.554c8f02ZzXw5y&algo_pvid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba&algo_expid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba-0&btsid=0ab6f83115990618356642096e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | OLED Display | SSD1306 |  |
-| LED-Ring | WS2812 | [Aliexpress Link ](https://de.aliexpress.com/item/32835427711.html?spm=a2g0o.productlist.0.0.847c3d32JLroFX&algo_pvid=32c7c01b-df4b-430e-b550-00097f15afde&algo_expid=32c7c01b-df4b-430e-b550-00097f15afde-0&btsid=0ab6f83115990618906573133e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
+| LED-Ring (9 Pixel) | WS2812 | [Aliexpress Link ](https://de.aliexpress.com/item/32835427711.html?spm=a2g0o.productlist.0.0.847c3d32JLroFX&algo_pvid=32c7c01b-df4b-430e-b550-00097f15afde&algo_expid=32c7c01b-df4b-430e-b550-00097f15afde-0&btsid=0ab6f83115990618906573133e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 
 ## build
 
