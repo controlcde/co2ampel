@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="20x_front_20x_back_on_900x600mm.svg">
+   sodipodi:docname="pattern_1.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.32"
-     inkscape:cx="2041.9738"
-     inkscape:cy="1161.6152"
+     inkscape:cx="2075.992"
+     inkscape:cy="1129.5712"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,7 +53,7 @@
      id="layer1">
     <g
        id="g3559"
-       transform="translate(7.8333881,20.169567)">
+       transform="translate(10,10)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="back_outsideCutPath"
@@ -69,7 +69,7 @@
     </g>
     <g
        id="g265"
-       transform="translate(7.8333881,130.36957)">
+       transform="translate(10,125.2)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path261"
@@ -85,7 +85,7 @@
     </g>
     <g
        id="g271"
-       transform="translate(7.8333881,240.56957)">
+       transform="translate(10,240.4)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path267"
@@ -101,7 +101,7 @@
     </g>
     <g
        id="g277"
-       transform="translate(7.8333881,350.76957)">
+       transform="translate(10,355.6)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path273"
@@ -117,7 +117,7 @@
     </g>
     <g
        id="g283"
-       transform="translate(7.8333881,460.96957)">
+       transform="translate(10,470.8)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path279"
@@ -133,7 +133,7 @@
     </g>
     <g
        id="g949"
-       transform="translate(118.033,20.17)">
+       transform="translate(125.19961,10.000433)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path945"
@@ -149,7 +149,7 @@
     </g>
     <g
        id="g955"
-       transform="translate(118.033,130.37)">
+       transform="translate(125.19961,125.20043)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path951"
@@ -165,7 +165,7 @@
     </g>
     <g
        id="g961"
-       transform="translate(118.033,240.57001)">
+       transform="translate(125.19961,240.40044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path957"
@@ -181,7 +181,7 @@
     </g>
     <g
        id="g967"
-       transform="translate(118.033,350.77001)">
+       transform="translate(125.19961,355.60044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path963"
@@ -197,7 +197,7 @@
     </g>
     <g
        id="g973"
-       transform="translate(118.033,460.97001)">
+       transform="translate(125.19961,470.80044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path969"
@@ -213,7 +213,7 @@
     </g>
     <g
        id="g993"
-       transform="translate(228.233,20.17)">
+       transform="translate(240.39961,10.000433)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path989"
@@ -229,7 +229,7 @@
     </g>
     <g
        id="g999"
-       transform="translate(228.233,130.37)">
+       transform="translate(240.39961,125.20043)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path995"
@@ -245,7 +245,7 @@
     </g>
     <g
        id="g1005"
-       transform="translate(228.233,240.57001)">
+       transform="translate(240.39961,240.40044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path1001"
@@ -261,7 +261,7 @@
     </g>
     <g
        id="g1011"
-       transform="translate(228.233,350.77001)">
+       transform="translate(240.39961,355.60044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path1007"
@@ -277,7 +277,7 @@
     </g>
     <g
        id="g1017"
-       transform="translate(228.233,460.97001)">
+       transform="translate(240.39961,470.80044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path1013"
@@ -293,7 +293,7 @@
     </g>
     <g
        id="g1035"
-       transform="translate(338.433,240.57001)">
+       transform="translate(355.59961,240.40044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path1031"
@@ -309,7 +309,7 @@
     </g>
     <g
        id="g1041"
-       transform="translate(338.433,350.77001)">
+       transform="translate(355.59961,355.60044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path1037"
@@ -325,7 +325,7 @@
     </g>
     <g
        id="g1047"
-       transform="translate(338.433,460.97001)">
+       transform="translate(355.59961,470.80044)">
       <path
          style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
          id="path1043"
@@ -342,7 +342,7 @@
     <g
        inkscape:label="Ebene 1"
        id="layer1-9"
-       transform="translate(358.74627,-17.577719)">
+       transform="translate(375.91288,-27.747286)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="front_outsideCutPath"
@@ -424,7 +424,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g836"
-       transform="translate(358.73627,92.622281)">
+       transform="translate(375.90288,87.452714)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path808"
@@ -506,7 +506,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g867"
-       transform="translate(468.94627,-17.577719)">
+       transform="translate(491.11288,-27.747286)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path839"
@@ -588,7 +588,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g897"
-       transform="translate(468.93627,92.622281)">
+       transform="translate(491.10288,87.452714)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path869"
@@ -670,7 +670,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g927"
-       transform="translate(468.94627,202.82228)">
+       transform="translate(491.11288,202.65271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path899"
@@ -752,7 +752,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g958"
-       transform="translate(468.93627,313.02228)">
+       transform="translate(491.10288,317.85271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path929"
@@ -834,7 +834,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g988"
-       transform="translate(468.93627,423.22228)">
+       transform="translate(491.10288,433.05271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path960"
@@ -916,7 +916,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1018"
-       transform="translate(579.14627,-17.577719)">
+       transform="translate(606.31288,-27.747286)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path990"
@@ -998,7 +998,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1048"
-       transform="translate(579.13627,92.622281)">
+       transform="translate(606.30288,87.452714)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1020"
@@ -1080,7 +1080,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1078"
-       transform="translate(579.14627,202.82228)">
+       transform="translate(606.31288,202.65271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1050"
@@ -1162,7 +1162,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1108"
-       transform="translate(579.13627,313.02228)">
+       transform="translate(606.30288,317.85271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1080"
@@ -1244,7 +1244,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1138"
-       transform="translate(579.13627,423.22228)">
+       transform="translate(606.30288,433.05271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1110"
@@ -1326,7 +1326,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1168"
-       transform="translate(689.34627,-17.577719)">
+       transform="translate(724.51288,-27.747286)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1140"
@@ -1408,7 +1408,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1198"
-       transform="translate(689.33627,92.622281)">
+       transform="translate(724.50288,87.452714)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1170"
@@ -1490,7 +1490,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1228"
-       transform="translate(689.34627,202.82228)">
+       transform="translate(724.51288,202.65271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1200"
@@ -1572,7 +1572,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1258"
-       transform="translate(689.33627,313.02228)">
+       transform="translate(724.50288,317.85271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1230"
@@ -1654,7 +1654,7 @@
     <g
        inkscape:label="Ebene 1"
        id="g1288"
-       transform="translate(689.33627,423.22228)">
+       transform="translate(724.50288,433.05271)">
       <path
          d="m 7.946731,147.93872 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 83.856719 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -28.082 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -28.082 l -0.059,0.059 v 28.082 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.082001 l 0.059,0.059 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 28.082 l 0.059,0.059 h 28.082 z"
          id="path1260"
@@ -1733,47 +1733,5 @@
          cy="109.90429"
          r="14.968576" />
     </g>
-    <g
-       transform="rotate(90,470.78151,509.2335)"
-       id="g6416">
-      <path
-         inkscape:connector-curvature="0"
-         d="m 46.25,200.673 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 24.941 l 0.059,-0.059 v -12.941 h 2.941 l 0.059,-0.059 v -18.082 l -0.059,-0.059 h -2.941 v -12.941 l -0.059,-0.059 H 82.25 v -2.941 l -0.059,-0.059 H 64.109 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 H 28.109 l -0.059,0.059 v 2.941 H 3.109 l -0.059,0.059 v 12.941 H 0.109 l -0.059,0.059 v 18.082 l 0.059,0.059 H 3.05 v 12.941 l 0.059,0.059 H 28.05 v 2.941 l 0.059,0.059 h 18.082 z"
-         id="top_outsideCutPath"
-         style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round" />
-      <rect
-         y="180.73056"
-         x="12.860798"
-         height="8.7573109"
-         width="8.7573109"
-         id="rect827-6"
-         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.24269;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <path
-       style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
-       id="bottom_outsideCutPath"
-       d="m 779.342,194.78399 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.08199 l 0.059,0.059 h 2.941 V 255.725 l 0.059,0.059 h 12.94099 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 12.941 l 0.059,-0.059 v -24.94101 h 2.941 l 0.059,-0.059 v -18.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -18.082 l -0.059,-0.059 h -2.941 v -24.941 l -0.059,-0.059 h -12.941 v -2.941 l -0.059,-0.059 H 795.342 l -0.059,0.059 v 2.941 h -12.941 l -0.059,0.059 v 24.941 h -2.941 l -0.059,0.059 v 18.08199 z"
-       inkscape:connector-curvature="0" />
-    <g
-       transform="rotate(90,360.6635,619.3515)"
-       id="g1372">
-      <path
-         inkscape:connector-curvature="0"
-         d="m 46.25,200.673 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 24.941 l 0.059,-0.059 v -12.941 h 2.941 l 0.059,-0.059 v -18.082 l -0.059,-0.059 h -2.941 v -12.941 l -0.059,-0.059 H 82.25 v -2.941 l -0.059,-0.059 H 64.109 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 H 28.109 l -0.059,0.059 v 2.941 H 3.109 l -0.059,0.059 v 12.941 H 0.109 l -0.059,0.059 v 18.082 l 0.059,0.059 H 3.05 v 12.941 l 0.059,0.059 H 28.05 v 2.941 l 0.059,0.059 h 18.082 z"
-         id="path1368"
-         style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round" />
-      <rect
-         y="180.73056"
-         x="12.860798"
-         height="8.7573109"
-         width="8.7573109"
-         id="rect1370"
-         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.24269;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <path
-       style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round"
-       id="path1374"
-       d="m 779.342,415.02 h 2.941 v 17.8 h -2.941 l -0.059,0.059 v 18.08199 l 0.059,0.059 h 2.941 v 24.94102 l 0.059,0.059 h 12.94099 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 12.941 l 0.059,-0.059 V 451.02 h 2.941 l 0.059,-0.059 v -18.082 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 v -18.082 l -0.059,-0.059 h -2.941 v -24.941 l -0.059,-0.059 h -12.941 v -2.941 l -0.059,-0.059 H 795.342 l -0.059,0.059 v 2.941 h -12.941 l -0.059,0.059 v 24.941 h -2.941 l -0.059,0.059 v 18.08199 z"
-       inkscape:connector-curvature="0" />
   </g>
 </svg>
