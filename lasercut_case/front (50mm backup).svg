@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="249.20424"
-     inkscape:cy="202.99263"
+     inkscape:cx="256.20424"
+     inkscape:cy="170.49263"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -86,12 +86,12 @@
        style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.259;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <ellipse
-       ry="19.916903"
-       rx="19.916901"
+       ry="24.933926"
+       rx="24.933924"
        cy="109.90429"
        cx="34.846729"
        id="path5237"
-       style="opacity:1;fill:none;fill-opacity:0.509804;stroke:#0000ff;stroke-width:0.0798787;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:0.509804;stroke:#0000ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        y="56.283989"
        x="22.476009"
