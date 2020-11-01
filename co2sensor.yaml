@@ -78,7 +78,7 @@ sensor:
                   sensor.in_range:
                    id: mhz19_co2
                    above: 800
-                   below: 1500
+                   below: 1000
                  then:
                      - light.turn_on:
                         id: ws2812
@@ -92,7 +92,7 @@ sensor:
                                  condition:
                                          sensor.in_range:
                                                  id: mhz19_co2
-                                                 above: 1500
+                                                 above: 1000
                                  then:
                                          - light.turn_on:
                                                  id: ws2812
@@ -113,6 +113,10 @@ sensor:
                                          - light.toggle: ws2812
                                          - delay: 500ms
                                          - light.toggle: ws2812
+                                         - delay: 500ms
+                                         - light.toggle: ws2812
+                                         - delay: 500ms
+                                         - light.toggle: ws2812
                                          - lambda: |-
                                             static int num_executions = 0;
                                             ESP_LOGD("main", "I am at execution number %d", num_executions);
@@ -125,7 +129,7 @@ i2c:
 font:
   - file: "font.ttf"
     id: cust_font
-    size: 28  
+    size: 70
 
 display:
   - platform: ssd1306_i2c
@@ -136,8 +140,11 @@ display:
     pages:
             - id: boot
               lambda: |-
-               it.printf(64, 32, id(cust_font), COLOR_ON, TextAlign::TOP_CENTER, "starte...");
+                      it.printf(64, 0, id(cust_font), COLOR_ON, TextAlign::TOP_CENTER, ":-)");
             - id: co2
               lambda: |-
-               it.printf(64, 32, id(cust_font), COLOR_ON, TextAlign::TOP_CENTER, "%.0fPPM", id(mhz19_co2).state);
+               int ergb;
+               ergb = id(mhz19_co2).state/100;
+               it.printf(64, 0, id(cust_font), COLOR_ON, TextAlign::TOP_CENTER, "%.0i", ergb);
+#               it.printf(64, 16, id(cust_font), COLOR_ON, TextAlign::TOP_CENTER, "%.0fPPM", id(mhz19_co2).state);
 #            it.printf(64, 40, id(cust_font),TextAlign::TOP_CENTER, "%.0f°C", id(mhz19_temp).state);
