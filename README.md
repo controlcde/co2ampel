@@ -3,24 +3,31 @@
 ![](https://git.unhb.de/smash/co2ampel/raw/branch/master/doc/case.jpg)
 
 ## idea
-higher concentrations of CO2 inside will make you sleepy and have an impact on your wellbeing. during the current pandemic higher CO2 concentrations inside are also a pretty good indication for higher levels of aerosol and as such a higher risk for infection. the 'CO2 Ampel' (CO2 traffic light) will give you a visual representation of the current situation and remind you to open windows to keep you happy and healthy
+higher concentrations of CO2 inside will make you sleepy and have an impact on your wellbeing. during the current pandemic higher CO2 concentrations inside are also a pretty good indic
+ation for higher levels of aerosol and as such a higher risk for infection. the 'CO2 Ampel' (CO2 traffic light) will give you a visual representation of the current situation and remin
+d you to open windows to keep you happy and healthy
 
 ## parts list
-
 
 | description | part | link |
 | -------------------- | ----------- | ------------------------------------------- |
 | ESP32 | ESP-32 30Pin | [Aliexpress Link ](https://de.aliexpress.com/item/32864722159.html?spm=a2g0o.productlist.0.0.6e7e745aBnlwmM&algo_pvid=b9be1fdc-113a-4e2e-aafa-4e08151af66c&algo_expid=b9be1fdc-113a-4e2e-aafa-4e08151af66c-1&btsid=0ab50f6215990625361401073eaad4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)|
 | Infrared CO2 Sensor | mhz-19 | [Aliexpress Link ](https://de.aliexpress.com/i/32952229446.html) |
-| Active piezzo buzzer | KY-012 | [Aliexpress Link ](https://de.aliexpress.com/item/32740686896.html?spm=a2g0o.productlist.0.0.554c8f02ZzXw5y&algo_pvid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba&algo_expid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba-0&btsid=0ab6f83115990618356642096e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
+| Active piezzo buzzer (optional) | KY-012 | [Aliexpress Link](https://de.aliexpress.com/item/32740686896.html?spm=a2g0o.productlist.0.0.554c8f02ZzXw5y&algo_pvid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba&algo_expid=a49664ca-1685-4d9a-b7ba-45c1fbf5a7ba-0&btsid=0ab6f83115990618356642096e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | OLED Display | SSD1306 |  |
 | LED-Ring (9 Pixel) | WS2812 | [Aliexpress Link ](https://de.aliexpress.com/item/32835427711.html?spm=a2g0o.productlist.0.0.847c3d32JLroFX&algo_pvid=32c7c01b-df4b-430e-b550-00097f15afde&algo_expid=32c7c01b-df4b-430e-b550-00097f15afde-0&btsid=0ab6f83115990618906573133e52ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
+
+
 
 ## build
 
 * solder everything according to the connection schema
-* get yourself a copy of esphome (https://esphome.io/)
-* compile the firmware with ```co2ampel=USER_ROOM esphome co2sensor.yaml run``` (replace user with a nick that identifies you or your organisation and room with the place the sensor is located at - these will be used for online graphing!)
+* get yourself a copy of esphome (https://esphome.io/) ```pip3 install esphome```
+* compile the firmware with ```co2ampel=USER_ROOM esphome co2sensor.yaml run``` 
+  * replace user with a nick that identifies you or your organisation
+  * replace room with the place the sensor is located at
+  * e.g. unhb_hackspace or unhb_001 for obfuscation
+  * these will be used for online graphing! if sensor has wifi access
 * hold boot on your esp32 until fw upload starts.
 
 ## setup
@@ -31,7 +38,7 @@ higher concentrations of CO2 inside will make you sleepy and have an impact on y
 
 ## grafana
 
-there is a quick setup on http://co2.cyber23.de:3000/d/1axlpIdGk/co2?orgId=1&refresh=10s your sensor should apper in the list on the left as soon it is connected via wifi
+there is a quick setup on [here](http://co2.cyber23.de:3000/d/1axlpIdGk/co2?orgId=1&refresh=10s&var-co2name=smash_wohnzimmer&from=now-2d&to=now) your sensor should apper in the list on the left as soon it is connected via wifi. 
 
 ### schema
 
@@ -46,7 +53,7 @@ there is a quick setup on http://co2.cyber23.de:3000/d/1axlpIdGk/co2?orgId=1&ref
 | GND           | WS2812 (GND)      |                                |
 | GND           | SSD1306 (GND)     |                                |
 | D4            | WS2812 (DI)       |                                |
-| RX2 / D16     | mhz-19 (TX)       |                                | 
+| RX2 / D16     | mhz-19 (TX)       |                                |
 | TX2 / D17     | mhz-19 (RX)       |                                |
 | I2C SDA / D21 | SSD1306 (SDA)     |                                |
 | I2C SCL / D22 | SSD1306 (SCL)     |                                |
@@ -65,18 +72,16 @@ either way it might be a good idea to have a capacitor between VCC and GND. my p
 ## readings for inside rooms
 
 
-| CO2 measure | light  | buzzer | meaning                                                                           |
-| ----------- | ------ | ------ | --------------------------------------------------------------------------------- |
-| 400 ppm     | none   | no     | more or less the baseline of the sensor hardware and means 'fresh air quality'    |
-| 400-800ppm  | none   | no     | safe zone and can be considered good air quality                                  |
-| 800-1500ppm | yellow | no     | warning zone (consider to open windows) and is between medium and bad air quality |
-| > 1500ppm   | red + blink    | no       | bad air quality, ppl in the room will be affected in a negative way               |
+| CO2 measure | light       | buzzer | meaning                                                                           |
+| ----------- | ----------- | ------ | --------------------------------------------------------------------------------- |
+| 400 ppm     | none        | no     | more or less the baseline of the sensor hardware and means 'outside air quality'  |
+| 400-800ppm  | none        | no     | safe zone and can be considered good air quality                                  |
+| 800-1000ppm | yellow      | no     | warning zone (consider to open windows) and is between medium and bad air quality |
+| > 1000ppm   | red + blink | no     | hygienic bad air quality, chance for infections rise               |
 
- 
+
 
 
 ## todo
-- [ ]  cooldown time for buzzer (alarm only once every n minutes) -> lambda/interval/on_time?
-- [x]  add openings for mh-z19 to the case
-- [x]  adjust light tunnel to use frosted acrylic glass
-- [ ]  add a silent switch for meeting rooms and such (no buzzer, but flash at a regular interval to attract attention)
+
+
