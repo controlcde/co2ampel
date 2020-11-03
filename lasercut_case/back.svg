@@ -14,7 +14,7 @@
    height="110.3mm"
    width="110.3mm"
    sodipodi:docname="back.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,22 +25,23 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1052"
+     inkscape:window-height="1001"
      id="namedview20"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="135.08561"
-     inkscape:cy="143.23416"
-     inkscape:window-x="1920"
-     inkscape:window-y="1080"
+     inkscape:cx="158.06889"
+     inkscape:cy="224.576"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg983"
+     inkscape:current-layer="g3559"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata989">
     <rdf:RDF>
@@ -49,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
         <dc:creator>
@@ -85,11 +86,29 @@
        d="m 28.25,110.191 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 V 82.109 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 46.109 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 0.109 L 110.191,0.05 H 82.109 L 82.05,0.109 V 3.05 H 64.25 V 0.109 L 64.191,0.05 H 46.109 L 46.05,0.109 V 3.05 H 28.25 V 0.109 L 28.191,0.05 H 0.109 L 0.05,0.109 V 28.191 L 0.109,28.25 H 3.05 v 17.8 H 0.109 L 0.05,46.109 V 64.191 L 0.109,64.25 H 3.05 v 17.8 H 0.109 L 0.05,82.109 v 28.082 l 0.059,0.059 h 28.082 z"
        inkscape:connector-curvature="0" />
     <rect
-       y="88.986549"
-       x="8.0234766"
-       height="8.7573099"
-       width="8.7573099"
+       y="89.013512"
+       x="8.0504427"
+       height="10.70338"
+       width="10.70338"
        id="rect827"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.24268976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.296621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       id="g838"
+       transform="translate(0.32533312)">
+      <rect
+         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect9"
+         width="3"
+         height="6"
+         x="9.0992517"
+         y="75.152565" />
+      <rect
+         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect834"
+         width="3"
+         height="6"
+         x="14.054347"
+         y="75.152565" />
+    </g>
   </g>
 </svg>
