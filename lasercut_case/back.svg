@@ -31,8 +31,8 @@
      id="namedview20"
      showgrid="false"
      inkscape:zoom="1.696664"
-     inkscape:cx="182.99237"
-     inkscape:cy="214.62759"
+     inkscape:cx="184.63568"
+     inkscape:cy="220.13989"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -44,7 +44,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:document-rotation="0"
-     inkscape:snap-page="true" />
+     inkscape:snap-page="true"
+     inkscape:snap-to-guides="false" />
   <metadata
      id="metadata989">
     <rdf:RDF>
@@ -84,34 +85,32 @@
   <g
      id="g3559">
     <path
-       style="stroke-dasharray:none;stroke-miterlimit:4;stroke-linecap:round;stroke-width:0.15875;stroke:#ff0000;fill-rule:evenodd;fill:none;font-size:12px;"
+       style="font-size:12px;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.15875;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="back_outsideCutPath"
        d="m 28.25,110.191 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.082 l 0.059,-0.059 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 28.082 l 0.059,-0.059 V 82.109 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 46.109 l -0.059,-0.059 h -2.941 v -17.8 h 2.941 l 0.059,-0.059 V 0.109 L 110.191,0.05 H 82.109 L 82.05,0.109 V 3.05 H 64.25 V 0.109 L 64.191,0.05 H 46.109 L 46.05,0.109 V 3.05 H 28.25 V 0.109 L 28.191,0.05 H 0.109 L 0.05,0.109 V 28.191 L 0.109,28.25 H 3.05 v 17.8 H 0.109 L 0.05,46.109 V 64.191 L 0.109,64.25 H 3.05 v 17.8 H 0.109 L 0.05,82.109 v 28.082 l 0.059,0.059 h 28.082 z"
        inkscape:connector-curvature="0" />
-    <rect
-       y="104.4618"
-       x="11.080896"
-       height="5.8382072"
-       width="5.8382068"
+    <path
        id="rect827"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.161793;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.161793;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 11.080896,110.30001 v -5.83821 h 5.838207 v 5.83821"
+       sodipodi:nodetypes="cccc" />
     <g
        id="g838"
        transform="translate(0.9228784,5.6919294)"
-       style="stroke-width:0.13229167;stroke-miterlimit:4;stroke-dasharray:none">
+       style="stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none">
       <g
          id="g1436"
          transform="translate(-0.41350711)"
-         style="stroke-width:0.13229167;stroke-miterlimit:4;stroke-dasharray:none">
+         style="stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none">
         <rect
-           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.13229167;stroke-miterlimit:4;stroke-dasharray:none"
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
            id="rect9"
            width="3"
            height="6"
            x="8.492775"
            y="75.235268" />
         <rect
-           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.13229167;stroke-miterlimit:4;stroke-dasharray:none"
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
            id="rect834"
            width="3"
            height="6"
@@ -121,7 +120,7 @@
     </g>
     <path
        sodipodi:type="star"
-       style="fill:none;stroke:#ff0000;stroke-width:0.20254815;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#ff0000;stroke-width:0.202548;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1438"
        sodipodi:sides="3"
        sodipodi:cx="55.150002"
@@ -136,5 +135,69 @@
        d="m 63.094114,22.578202 c -0.953294,1.651153 -14.934931,1.651153 -15.888225,0 -0.953293,-1.651153 6.037526,-13.7596061 7.944113,-13.7596061 1.906587,0 8.897405,12.1084541 7.944112,13.7596061 z"
        inkscape:transform-center-y="-2.278335"
        transform="matrix(0.61831259,0,0,0.99348847,21.05006,11.288502)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.274258"
+       y="37.660297"
+       id="text1442"><tspan
+         sodipodi:role="line"
+         id="tspan1440"
+         x="43.274258"
+         y="37.660297"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583">Cutout for wall hanging</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="21.676115"
+       y="76.412209"
+       id="text1450"><tspan
+         sodipodi:role="line"
+         id="tspan1448"
+         x="21.676115"
+         y="76.412209"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583">Cutout for zip ties</tspan><tspan
+         sodipodi:role="line"
+         x="21.676115"
+         y="79.939987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583"
+         id="tspan1452">(strain relief for</tspan><tspan
+         sodipodi:role="line"
+         x="21.676115"
+         y="83.467758"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583"
+         id="tspan1460">power cord)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="18.245361"
+       y="98.946007"
+       id="text1456"><tspan
+         sodipodi:role="line"
+         id="tspan1454"
+         x="18.245361"
+         y="98.946007"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583">Power cord</tspan><tspan
+         sodipodi:role="line"
+         x="18.245361"
+         y="102.47379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583"
+         id="tspan1458">outlet (standing</tspan><tspan
+         sodipodi:role="line"
+         x="18.245361"
+         y="106.00156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583"
+         id="tspan1462">on desk)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="27.290073"
+       y="58.790615"
+       id="text1480"><tspan
+         sodipodi:role="line"
+         id="tspan1478"
+         x="27.290073"
+         y="58.790615"
+         style="fill:#008000;stroke-width:0.264583">Back plate</tspan></text>
   </g>
 </svg>

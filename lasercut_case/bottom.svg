@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.9456405"
-     inkscape:cx="110.33645"
-     inkscape:cy="146.10523"
+     inkscape:zoom="2.0094472"
+     inkscape:cx="165.80085"
+     inkscape:cy="53.722757"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,11 +35,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1271"
-     inkscape:window-height="1040"
-     inkscape:window-x="244"
-     inkscape:window-y="493"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      inkscape:snap-page="false"
      inkscape:object-paths="true" />
@@ -83,16 +83,46 @@
      id="layer1"
      transform="translate(-15.165724,-81.437506)">
     <path
-       style="font-size:12px;vector-effect:non-scaling-stroke;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-size:12px;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="bottom_outsideCutPath"
        d="m 61.415725,131.6285 v -2.941 h 17.8 v 2.941 l 0.059,0.059 h 18.081998 l 0.059,-0.059 v -2.941 h 24.941007 l 0.059,-0.059 v -12.94099 h 2.941 l 0.059,-0.059 V 97.546506 l -0.059,-0.059 h -2.941 v -12.941 l -0.059,-0.059 H 97.415725 v -2.941 l -0.059,-0.059 H 79.274724 l -0.059,0.059 v 2.941 h -17.8 v -2.941 l -0.059,-0.059 h -18.082 l -0.059,0.059 v 2.941 h -24.941 l -0.059,0.059 v 12.941 h -2.941 l -0.059,0.059 V 115.6285 l 0.059,0.059 h 2.941 v 12.941 l 0.059,0.059 h 24.941001 v 2.941 l 0.059,0.059 h 18.081998 z"
        inkscape:connector-curvature="0" />
-    <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.210666;stroke-miterlimit:4;stroke-dasharray:none"
+    <path
        id="rect1432"
-       width="5.7893343"
-       height="3.7893343"
-       x="26.271057"
-       y="84.492737" />
+       style="fill:none;stroke:#ff0000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 32.060391,84.492737 v 3.789334 h -5.789334 l 0,-3.789334"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="27.471338"
+       y="91.048462"
+       id="text1466"><tspan
+         sodipodi:role="line"
+         id="tspan1464"
+         x="27.471338"
+         y="91.048462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583">Power cord</tspan><tspan
+         sodipodi:role="line"
+         x="27.471338"
+         y="94.576241"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583"
+         id="tspan1468">outlet (hanging</tspan><tspan
+         sodipodi:role="line"
+         x="27.471338"
+         y="98.104012"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke-width:0.264583"
+         id="tspan1470">on wall)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="32.809464"
+       y="112.77489"
+       id="text1474"><tspan
+         sodipodi:role="line"
+         id="tspan1472"
+         x="32.809464"
+         y="112.77489"
+         style="fill:#008000;stroke-width:0.264583">BOTTOM PART</tspan></text>
   </g>
 </svg>
